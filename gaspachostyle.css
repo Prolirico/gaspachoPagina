@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,14 +13,14 @@ header {
     transition: 0.7s;
     padding: 30px 20px;
     z-index: 10;
-}
-
-header.abajo {
+  }
+  
+  header.abajo {
     background: #fff;
     padding: 15px 20px;
-}
-
-header .logo {
+  }
+  
+  header .logo {
     position: relative;
     color: #fff;
     font-weight: bold;
@@ -28,26 +28,26 @@ header .logo {
     letter-spacing: 2px;
     transition: 1.5s;
     text-decoration: none;
-}
-
-nav {
+  }
+  
+  nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header ul {
+  }
+  
+  header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header ul li {
+  }
+  
+  header ul li {
     list-style: none;
-}
-
-header ul li a {
+  }
+  
+  header ul li a {
     position: relative;
     font-family: helvetica;
     margin: 0 15px;
@@ -56,30 +56,30 @@ header ul li a {
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
-}
-
-.zona1 {
+  }
+  
+  .zona1 {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(cat.jpg);
+    background: url(https://media.es.wired.com/photos/65fc5daef55f3fd353a93d66/16:9/w_2560%2Cc_limit/DOJ-Suing-Apple-Business-GettyImages-1938441354.jpg);
     background-size: cover;
     background-position: center center;
-}
-
-header.abajo .logo,
-header.abajo ul li a {
+  }
+  
+  header.abajo .logo,
+  header.abajo ul li a {
     color: #000;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.footer {
+  }
+  
+  .footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -87,13 +87,13 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
-}
-
-.footer a {
+  }
+  
+  .footer a {
     color: #ffcc00;
     text-decoration: none;
-}
-
-.footer a:hover {
+  }
+  
+  .footer a:hover {
     text-decoration: underline;
-}
+  }
